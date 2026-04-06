@@ -510,19 +510,14 @@
               <FilePath>..\user\app\tasks\task_baseInit.c</FilePath>
             </File>
             <File>
-              <FileName>task_demo.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\user\app\tasks\task_demo.c</FilePath>
-            </File>
-            <File>
               <FileName>task_idle.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\user\app\tasks\task_idle.c</FilePath>
             </File>
             <File>
-              <FileName>task_flow.c</FileName>
+              <FileName>task_led.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\user\app\tasks\task_flow.c</FilePath>
+              <FilePath>..\user\app\tasks\task_led.c</FilePath>
             </File>
           </Files>
         </Group>

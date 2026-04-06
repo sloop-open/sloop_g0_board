@@ -20,11 +20,8 @@ void task_baseInit(void);
 /* 空闲 */
 void task_idle(void);
 
-/* 演示 */
-void task_demo(void);
-
-/* 工作流编程演示 */
-void task_flow(void);
+/* led demo */
+void task_led(void);
 
 /* ==用户代码区 结束== */
 /* ============================================================== */

@@ -21,11 +21,8 @@ weak_define(task_baseInit);
 /* 空闲 */
 weak_define(task_idle);
 
-/* 演示 */
-weak_define(task_demo);
-
-/* 工作流编程演示 */
-weak_define(task_flow);
+/* led demo */
+weak_define(task_led);
 
 /* ==用户代码区 结束== */
 /* ============================================================== */
