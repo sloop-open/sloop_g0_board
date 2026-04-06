@@ -37,10 +37,12 @@ void flow_led(void)
 {
     /* 工作流上下文，工作流需要的数据在此静态定义 */
     _FLOW_CONTEXT(flow_led);
+    static int loop_count = 0;
 
     /* 初次进入工作流，执行一次，初始化工作流上下文 */
     _FLOW_INIT;
     sl_prt_withFunc("flow start");
+    loop_count = 0;
 
     /* 工作流结束，不再执行时，释放资源 */
     _FLOW_FREE(flow_led);
@@ -76,6 +78,13 @@ void flow_led(void)
     HAL_GPIO_TogglePin(LED3_GPIO_Port, LED3_Pin);
 
     FLOW_WAIT(200);
+
+    loop_count++;
+
+    if(loop_count >= 10)
+    {
+        sl_goto(task_idle);
+    }
 
     _FLOW_END;
 }
