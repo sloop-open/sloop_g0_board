@@ -50,16 +50,12 @@ flow 是基于 sloop 框架的协作式工作流编程机制，通过宏定义构建可挂起的执行体，实现
 
 ### 运行效果
 
-#### LED Demo 运行视频
-
-<video width="400" controls>
-  <source src="https://raw.githubusercontent.com/sloop-open/sloop_g0_board/main/resource/led.mp4" type="video/mp4">
-  你的浏览器不支持 HTML5 视频。
-</video>
+### ? sloop-g0 开发板 LED Demo 运行演示（B站）
+<a href="https://www.bilibili.com/video/BV1Y9AAz9Etw/" target="_blank">
+  <img src="resource/led.png" width="400" alt="sloop-g0 开发板 LED 演示">
+</a>
 
 #### RTT 运行日志
-
-![RTT 运行日志](resource/rtt%20log.png)
 
 ## 项目结构
 
