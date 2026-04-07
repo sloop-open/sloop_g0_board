@@ -8,7 +8,7 @@
 
 #include "common.h"
 
-void flow_led(void); 
+void flow_led(void);
 
 FLOW_STATE_DEFINE(flow_led);
 FLOW_EVENT_DEFINE(flow_led);
