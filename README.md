@@ -50,12 +50,14 @@ flow 是基于 sloop 框架的协作式工作流编程机制，通过宏定义构建可挂起的执行体，实现
 
 ### 运行效果
 
-### ? sloop-g0 开发板 LED Demo 运行演示（B站）
+### sloop-g0 演示板 LED Demo 运行视频-B站
 <a href="https://www.bilibili.com/video/BV1Y9AAz9Etw/" target="_blank">
-  <img src="resource/led.png" width="400" alt="sloop-g0 开发板 LED 演示">
+  <img src="resource/led.png" width="400" alt="sloop-g0 演示板 LED 演示">
 </a>
 
 #### RTT 运行日志
+
+![RTT 运行日志](resource/rtt%20log.png)
 
 ## 项目结构
 
@@ -104,7 +106,7 @@ flow 是基于 sloop 框架的协作式工作流编程机制，通过宏定义构建可挂起的执行体，实现
 
 ### LED 控制任务
 
-LED 控制任务负责管理板载 LED 的状态，实现闪烁效果和状态变化。
+LED 控制任务负责管理板载 LED 的状态，实现流星灯效果和状态变化。
 
 
 ### 工作流示例
@@ -180,9 +182,10 @@ This example demonstrates how to use the sloop framework and flow workflow mecha
 
 ### Running Effects
 
-#### LED Demo Running Video
-
-[LED Demo Running Video](resource/led%20demo.mp4)
+### sloop-g0 demo board LED Demo running video
+<a href="https://www.bilibili.com/video/BV1Y9AAz9Etw/" target="_blank">
+  <img src="resource/led.png" width="400" alt="sloop-g0 demo board LED demo">
+</a>
 
 #### RTT Running Log
 
