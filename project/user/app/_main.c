@@ -27,7 +27,7 @@ weak_define(task_led);
 /* ==用户代码区 结束== */
 /* ============================================================== */
 
-int _main(void)
+void _main(void)
 {
   sloop_init();
 
