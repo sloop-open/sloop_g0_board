@@ -24,7 +24,7 @@ void task_led(void)
     FLOW_STOP(flow_led);
 
     /* 下方开始进入任务运行逻辑 */
-    _RUN; 
+    _RUN;
 
     FLOW_SEND_EVENT(flow_led);
 
@@ -81,7 +81,7 @@ void flow_led(void)
 
     loop_count++;
 
-    if(loop_count >= 10)
+    if (loop_count >= 10)
     {
         sl_goto(task_idle);
     }
